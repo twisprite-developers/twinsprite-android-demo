@@ -1,6 +1,6 @@
 # Twinsprite Android SDK Demo
 
-This repository includes a Android Studio project with a demo APP that illustrates the main Twinsprite SDK methods. The Twinsprite Android SDK module is included inside the TwinspriteSDK folder.
+This repository includes an Android Studio project with a demo APP that illustrates the main Twinsprite SDK methods. The Twinsprite Android SDK module is included inside the TwinspriteSDK folder.
 
 The project also illustrates how to use the NFC reader of a Android phone to read a ToyxID and how to extract it from a QR code using the [ZXing Barcode Scanner](https://play.google.com/store/apps/details?id=com.google.zxing.client.android)
 
@@ -11,7 +11,7 @@ The project also illustrates how to use the NFC reader of a Android phone to rea
 
 2. Open the Android Studio project and replace the <b>API_KEY</b> and <b>SECRET_KEY</b> strings at the top of [MainActivity.java](https://github.com/twisprite-developers/twinsprite-android-demo/blob/master/app/src/main/java/com/twinsprite/test/MainActivity.java) with your game key-pair.
 
-3. Build the application and run it on an Android Phone or the Android emulator. Download an install the [ZXing Barcode Scanner App](https://play.google.com/store/apps/details?id=com.google.zxing.client.android), requied to scan QR codes, and scan a valid toyxID QR code from the [Twinsprite Development Portal](http://devportal.twinsprite.com/), to start making requests.
+3. Build the application and run it on an Android Phone or the Android emulator. Download and install the [ZXing Barcode Scanner App](https://play.google.com/store/apps/details?id=com.google.zxing.client.android), requied to scan QR codes, scan a valid toyxID QR code from the [Twinsprite Development Portal](http://devportal.twinsprite.com/) and start making requests.
 
 ![image](http://developers.twinsprite.com/images/android-demo-app.png)
 
@@ -33,7 +33,7 @@ If you have a Android device with NFC capabilities, store the ToyxID on a NFC ta
 
 [Twinsprite Android SDK Reference](http://developers.twinsprite.com/v2/sdk/android/index.html)
 
-[Twinsprite Android SDK Module](http://developers.twinsprite.com/v2/downloads/android/TwinspriteSDK.zip)
+[Twinsprite Android SDK Module](http://developers.twinsprite.com/v2/downloads/android/TwinspriteSDK.aar)
 
 
 
