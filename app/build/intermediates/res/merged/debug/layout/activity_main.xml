@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:onClick="save"
+        android:text="@string/save"
+        android:layout_above="@+id/button5"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:onClick="createSession"
+        android:text="@string/create_session"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:onClick="fetch"
+        android:text="@string/fetch"
+        android:layout_above="@+id/button4"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:onClick="redeem"
+        android:text="@string/redeem"
+        android:layout_above="@+id/button2"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_alignParentRight="true" />
+
+	<Button
+	    android:id="@+id/buttonSCAN"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+        android:onClick="scanQR"
+	    android:text="@string/scan_QR"
+        android:layout_below="@+id/buttonNFCR"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+	<Button
+	    android:id="@+id/buttonNFCR"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+        android:onClick="scanNFC"
+	    android:text="@string/scan_NFC"
+        android:layout_below="@+id/editTextToyxId"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="83dp"
+        android:layout_alignParentRight="true" />
+
+	<EditText
+	    android:id="@+id/editTextToyxId"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/textView1"
+	    android:ems="10"
+	    android:hint="@string/toyx_id"
+        android:textColor="#000000"
+        android:layout_alignRight="@+id/buttonNFCR">
+
+	    <requestFocus />
+	</EditText>
+
+</RelativeLayout>

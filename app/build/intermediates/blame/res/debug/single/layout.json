@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/pablomartinez/Documents/development/TwinspriteSDKV2/TwinSpriteAndroid/ejemplo/TwinSpriteAPITest/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/pablomartinez/Documents/development/TwinspriteSDKV2/TwinSpriteAndroid/ejemplo/TwinSpriteAPITest/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/pablomartinez/Documents/development/TwinspriteSDKV2/TwinSpriteAndroid/ejemplo/TwinSpriteAPITest/app/build/intermediates/res/merged/debug/layout/nfc_layout.xml",
+        "source": "/Users/pablomartinez/Documents/development/TwinspriteSDKV2/TwinSpriteAndroid/ejemplo/TwinSpriteAPITest/app/src/main/res/layout/nfc_layout.xml"
+    },
+    {
+        "merged": "/Users/pablomartinez/Documents/development/TwinspriteSDKV2/TwinSpriteAndroid/ejemplo/TwinSpriteAPITest/app/build/intermediates/res/merged/debug/layout/activity_capture.xml",
+        "source": "/Users/pablomartinez/Documents/development/TwinspriteSDKV2/TwinSpriteAndroid/ejemplo/TwinSpriteAPITest/app/src/main/res/layout/activity_capture.xml"
+    }
+]

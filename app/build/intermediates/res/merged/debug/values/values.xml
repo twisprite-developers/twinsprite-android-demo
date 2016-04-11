@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="decode_failed" type="id"/>
+    <item name="decoded" type="id"/>
+    <string name="app_name">TwinspriteAPITest</string>
+    <string name="create_session">create session</string>
+    <string name="fetch">fetch</string>
+    <string name="redeem">redeem</string>
+    <string name="save">save</string>
+    <string name="scan_NFC">scan NFC</string>
+    <string name="scan_QR">scan QR</string>
+    <string name="toyx_id">TOYX ID</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
